@@ -53,7 +53,7 @@ jobs:
               const total = m.TOOL_DEFINITIONS.length;
               const active = m.activeTools.length;
               const EXPECTED_TOTAL = 160;
-              const EXPECTED_ACTIVE = 137;
+              const EXPECTED_ACTIVE = 136;
               let bad = false;
               if (total !== EXPECTED_TOTAL) {
                 console.error(`TOOL_DEFINITIONS is ${total}, expected ${EXPECTED_TOTAL}.`);
